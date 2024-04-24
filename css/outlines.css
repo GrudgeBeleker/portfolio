@@ -116,6 +116,14 @@ ul::before {
   color: #28d119;
   content: "ul";
 }
+div {
+  background-color: #ffffff;
+  border: 2px solid #f36dff;
+}
+div::before {
+  color: #f36dff;
+  content: "div";
+}
 
 li {
   background-color: #ffffff;
@@ -137,6 +145,7 @@ li::before {
 *:not(:last-child) {
   margin-bottom: 20px;
 }
+
 
 *::before {
   position: absolute;
