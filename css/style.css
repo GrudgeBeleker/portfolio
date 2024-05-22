@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+:root{
+    --txt-color: #212121;
+    --green:#09A494;
+    --black: #212121;
+    --bg-color: #FFFFFF;
+    
+}
+
+
+body{
+    font-family: "Open Sans", "Arial", sans-serif;
+    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: leftal;
+
+    color: var(--txt=color);
+    background-color: var(--bg=color);
+
+}
+
+footer{
+    color: var(--bg-color);
+    background-color: var(--black);
+}
+
+h1{
+    font-family: "Open Sans";
+
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: left
+
+
+}
+
+h2{
+    font-family: Open Sans;
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+}
+
+h3{
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+}
+
+button a{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    
+}
+
+.subtitle{
+    font-family: Open Sans;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 45.6px;
+    text-align: left;
+    
+}
+
+
+.container{
+    min-width: 320px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
