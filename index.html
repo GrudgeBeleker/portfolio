@@ -18,7 +18,7 @@
     <div class="container">
         <header class="main-header">
             <a href="#"><img src="img/computer-ico.svg" alt="icon" width="60" height="60"></a>
-            <nav>
+            <nav class="main-nav">
                 <a href="#info">Обо мне</a>
                 <a href="#skills">Навыки</a>
                 <a href="#hobbies">Интересы</a>
@@ -29,7 +29,7 @@
     
     
         <section class="intro">
-            <img src="img/my_face.jpg" alt="face-id" width="410" height="450">
+            <img src="img/my_face.jpg" class="circle" alt="face-id" width="450" height="450">
             <h1>Егор Коптев</h1>
             <p class="subtitle">Программист</p>
         </section>
@@ -49,7 +49,7 @@
             
         </section>
       
-        <section class="skills">
+        <section class="skills" id="skills">
             <h2>Мои навыки</h2>
             <div>
                 Сортировать
@@ -63,26 +63,26 @@
             </div>
             
             
-            <dl>
-                <dt>html</dt>
-                <dd>
-                    <div style="width: 50%;">50%</div>
-                </dd>
-                <dt>css</dt>
-                <dd>
-                    <div style="width: 50%;">50%</div>
-                </dd>
-                <dt>python</dt>
-                <dd>
+            <dl class="skill-list">
+                <dt class="skill-list dt skill-item skill-item_html">html</dt>
+                <dd class="skill-level">
                     <div style="width: 30%;">30%</div>
                 </dd>
-                <dt>c++</dt>
-                <dd>
+                <dt class="skill-list dt skill-item skill-item_css">css</dt>
+                <dd class="skill-level">
+                    <div style="width: 20%;">20%</div>
+                </dd>
+                <dt class="skill-list dt skill-item skill-item_python">python</dt>
+                <dd class="skill-level">
+                    <div style="width: 70%;">70%</div>
+                </dd>
+                <dt class="skill-list dt skill-item skill-item_cpp">c++</dt>
+                <dd class="skill-level">
                     <div style="width: 40%;">40%</div>
                 </dd>
             </dl>
         </section>
-        <section class="hobbies">
+        <section class="hobbies" id="hobbies">
             <h2>Мои интересы</h2>
             <p>
                 Наибольший интерес для меня в данный момент представляет программирование и изучение искусственного интеллекта.
@@ -92,16 +92,16 @@
             </p>
         </section>
         
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <h2>Мои контакты</h2>
-            <ul>
-                <li><a href="tel:+79991112233">+7(123)-45-67</a></li>
-                <li><a href="mailto:email@mail.ru">email@mail.ru</a></li>
+            <ul class="contact">
+                <li class="contact-link contact-link_phone"><a href="tel:+79991112233"><span class="phone">+7(123)-45-67</span></a></li>
+                <li class="contact-link contact-link_mail"><a href="mailto:email@mail.ru"><span class="mail">email@mail.ru</span></a></li>
             </ul>
-            <ul>
-                <li><a href="https://github.com/GrudgeBeleker">GitHub</a></li>
-                <li><a href="">Telegram</a></li>
-                <li><a href="">VK</a></li>
+            <ul class="social">
+                <li class="social-link social-link_github"><a href="https://github.com/GrudgeBeleker"><span class="github">GitHub</span></a></li>
+                <li class="social-link social-link_telegram"><a href=""><span class="telegram">Telegram</span></a></li>
+                <li class="social-link social-link_vk"><a href=""><span class="vk">VK</span></a></li>
             </ul>
             
           
