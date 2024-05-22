@@ -109,10 +109,12 @@ button:hover{
     padding: 10px 15px 10px 15px;
     gap: 10px;
     opacity: 0px;
+    
 }
 
 nav{
     display: inline-block;
+    
 }
 
 nav a:hover{
@@ -147,14 +149,17 @@ nav a:hover{
 
 .social-link{
     display: block;
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     top: 3px;
     left: 2px;
     gap: 0px;
     opacity: 0px;
     border-radius: 50%;
     border: 1px 0px 0px 0px;
+    border:1px solid var(--txt-color);
+    border-color: var(--green);
+    
 }
 
  .github, .telegram, .vk{
@@ -219,6 +224,10 @@ nav a:hover{
     padding-left: 42px;
 }
 
+.phone:hover, .mail:hover{
+    color: var(--green);
+}
+
 .circle{
     border-radius: 50%;
 }
@@ -270,6 +279,7 @@ nav a:hover{
 .skill-item_cpp {
     background-image: url("../img/skill=c++.svg");
 }
+
 
 
 
