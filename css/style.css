@@ -223,6 +223,9 @@ nav a:hover{
 .phone, .mail{
     padding-left: 42px;
 }
+.contact-link a{
+    text-decoration: none;
+}
 
 .phone:hover, .mail:hover{
     color: var(--green);
@@ -287,6 +290,7 @@ nav a:hover{
 /* Стилизация от себя */
 .main-header{
     padding-bottom: 100px;
+    
 }
 .intro{
     padding-bottom: 50px;
