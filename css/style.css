@@ -27,7 +27,6 @@ footer{
 }
 
 h1{
-    font-family: "Open Sans";
     font-size: 60px;
     font-weight: 700;
     line-height: 1.1;
@@ -35,7 +34,6 @@ h1{
 }
 
 h2{
-    font-family: Open Sans;
     font-size: 30px;
     font-weight: 700;
     line-height: 1.2;
@@ -43,7 +41,6 @@ h2{
 }
 
 h3{
-    font-family: Open Sans;
     font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
@@ -51,7 +48,6 @@ h3{
 }
 
 button a{
-    font-family: Open Sans;
     font-size: 20px;
     font-weight: 400;
     line-height: 1;
@@ -64,18 +60,15 @@ button {
     cursor: pointer;
     text-transform: lowercase;
     text-align: center;
-    width: Hug (89px)px;
-    height: Hug (36px)px;
     top: 20px;
     left: 20px;
     padding: 6px 10px 10px 10px;
     gap: 10px;
     border: 1px solid var(--green);
     border-radius: 8px 8px 8px 8px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
     color: var(--green);
     background-color: var(--bg-color);
+
 }
 
 button:hover{
@@ -84,13 +77,12 @@ button:hover{
 }
 
 .subtitle{
-    font-family: Open Sans;
+    
     font-size: 38px;
     font-weight: 400;
     line-height: 1.2;
     text-align: left;
     color: var(--green);
-    
     
 }
 
@@ -104,11 +96,7 @@ button:hover{
 .main-nav a{
     text-decoration: none;
     color: var(--txt-color);
-    width: Hug (123px)px;
-    height: Hug (40px)px;
     padding: 10px 15px 10px 15px;
-    gap: 10px;
-    opacity: 0px;
     
 }
 
@@ -153,18 +141,14 @@ nav a:hover{
     height: 50px;
     top: 3px;
     left: 2px;
-    gap: 0px;
-    opacity: 0px;
     border-radius: 50%;
-    border: 1px 0px 0px 0px;
+    border: 1px 0 0 0;
     border:1px solid var(--txt-color);
     border-color: var(--green);
-    
+    background-repeat: no-repeat;
+    background-position:center;
 }
 
- .github, .telegram, .vk{
-    visibility: hidden;
-} 
 
 .social-link:hover{
     background-color: var(--green);
@@ -172,19 +156,15 @@ nav a:hover{
 
 .social-link_github{
     background-image: url("../img/social=github.svg");
-    background-repeat: no-repeat;
-    background-position:center;
     
 }
 .social-link_telegram{
     background-image: url("../img/social=telegram.svg");
-    background-repeat: no-repeat;
-    background-position:center;
+   
 }
 .social-link_vk{
     background-image: url("../img/social=vk.svg");
-    background-repeat: no-repeat;
-    background-position:center;
+    
 }
 
 .contact {
@@ -202,32 +182,25 @@ nav a:hover{
 
 .contact-link{
     display: block;
-    width: Hug (403px)px;
-    height: Hug (30px)px;
     gap: 12px;
-    opacity: 0px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position:left;
+    color: var(--txt-color);
+    padding-left: 42px;
 
 }
 
 .contact-link_phone{
     background-image: url("../img/icon=phone.svg");
-    background-repeat: no-repeat;
-    background-position:left;
+
 }
 .contact-link_mail{
     background-image: url("../img/icon=email.svg");
-    background-repeat: no-repeat;
-    background-position:left;
+    
 }
 
-.phone, .mail{
-    padding-left: 42px;
-}
-.contact-link a{
-    text-decoration: none;
-}
-
-.phone:hover, .mail:hover{
+.contact-link:hover{
     color: var(--green);
 }
 
@@ -282,8 +255,6 @@ nav a:hover{
 .skill-item_cpp {
     background-image: url("../img/skill=c++.svg");
 }
-
-
 
 
 
