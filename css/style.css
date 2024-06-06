@@ -16,8 +16,8 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
-    text-align: leftal;
-    color: var(--txt=color);
+    text-align: left;
+    color: var(--txt-color);
     background-color: var(--bg=color);
 }
 
@@ -65,7 +65,7 @@ button {
     padding: 6px 10px 10px 10px;
     gap: 10px;
     border: 1px solid var(--green);
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 8px;
     color: var(--green);
     background-color: var(--bg-color);
 
@@ -139,10 +139,7 @@ nav a:hover{
     display: block;
     width: 50px;
     height: 50px;
-    top: 3px;
-    left: 2px;
     border-radius: 50%;
-    border: 1px 0 0 0;
     border:1px solid var(--txt-color);
     border-color: var(--green);
     background-repeat: no-repeat;
