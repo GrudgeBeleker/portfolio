@@ -26,6 +26,11 @@ footer{
     background-color: var(--txt-color);
 }
 
+.main-footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 h1{
     font-size: 60px;
     font-weight: 700;
@@ -38,6 +43,8 @@ h2{
     font-weight: 700;
     line-height: 1.2;
     text-align: left;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 h3{
@@ -63,6 +70,7 @@ button {
     top: 20px;
     left: 20px;
     padding: 6px 10px 10px 10px;
+    margin-left: 20px;
     gap: 10px;
     border: 1px solid var(--green);
     border-radius: 8px;
@@ -101,7 +109,7 @@ button:hover{
 }
 
 nav{
-    display: inline-block;
+    display: flex;
     
 }
 
@@ -144,6 +152,7 @@ nav a:hover{
     border-color: var(--green);
     background-repeat: no-repeat;
     background-position:center;
+    margin-right: 20px;
 }
 
 
@@ -168,6 +177,7 @@ nav a:hover{
     margin: 0;
     padding: 0;
     padding-bottom: 40px;
+
     
 }
 
@@ -253,26 +263,67 @@ nav a:hover{
     background-image: url("../img/skill=c++.svg");
 }
 
-
-
-/* Стилизация от себя */
 .main-header{
-    padding-bottom: 100px;
+    display: flex;
+    padding-top: 60px;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 120px;
+    
+}
+
+.intro_block{
+    
+    margin-right: 70px;
     
 }
 .intro{
-    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
 }
-.info{
-    padding-bottom: 50px;
+
+.skills-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
-.skills{
-    padding-bottom: 50px;
+
+h1{
+    margin: 0;
+    margin-bottom: 20px;
 }
-.hobbies{
-    padding-bottom: 30px;
+
+.skills-wrapper h2{
+    margin: 0;
 }
+
+p{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+p:last-child{
+    margin-bottom: 0;
+}
+
+.text-wrapper{
+    max-width: 1280px;
+}
+
 .contacts{
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
 }
+
+ section{
+    margin-bottom: 120px;
+ }
+
+
 
