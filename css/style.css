@@ -157,7 +157,10 @@ nav a:hover{
     border-color: var(--green);
     background-repeat: no-repeat;
     background-position:center;
-    margin-right: 10px;
+    
+}
+.social{
+    gap: 20px;
 }
 
 
@@ -324,7 +327,7 @@ p:last-child{
 }
 
 .text-wrapper{
-    max-width: 1240px;
+    max-width: 800px;
 }
 
 .contacts{
