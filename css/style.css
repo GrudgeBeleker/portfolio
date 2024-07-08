@@ -125,6 +125,7 @@ nav a:hover{
     display: flex;
     flex-direction: row;
     justify-content: baseline;
+    flex-wrap: wrap;
     
     
 }
@@ -374,6 +375,11 @@ section{
             padding-top: 7px;
             padding-bottom: 7px;
         }
+        .main-header{
+            padding-top: 60px;
+            margin-bottom: 80px;
+        }
+        
     
         
     }
@@ -479,7 +485,7 @@ section{
             padding-bottom: 50px;
         }
     
-        .skills-text {
+        .skills-wrapper {
             margin-bottom: 30px;
         }
     
@@ -506,40 +512,38 @@ section{
     }
 
 
-    @media screen and (max-width: 430px) {
-        button{
-            margin-left: 5px;
-            padding: 2px;
-        }
-        .skills-text h2{
-            font-size: 17px;
-        }
-
-    }
     
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 430px) {
         button, a, body {
             font-size: 14px;
         }
+        button{
+            padding: 6px 10px 6px 10px;
+            gap: 10px;
+        }
         
         h1 {
-            font-size: 32 px;
+            font-size: 32px;
         }
     
         h2 {
-            font-size: 20 px;
+            font-size: 20px;
         }
-    
+       
         h3 {
-            font-size: 16 px;
+            font-size: 16px;
         }
+      
+      
     
         .subtitle {
             font-size: 20px;
         }
+
         .main-nav a{
             margin: 0;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            /* для точного совпадения с макетом */
         }
     
         .skills-wrapper {
@@ -569,21 +573,23 @@ section{
         }
     
         .contact-link {
-            padding-top: 8px;
-            padding-bottom: 8px;
+            gap: 12px;
+            margin-bottom: 8px;
+            
         }
-    
+        
         .contact {
             display: inline-flex;
             flex-direction: column;
-            padding-bottom: 20px;
-            gap: 15px;
+            padding-bottom: 12px;
+
         }
-    
+        
         .social {
-            flex-wrap: wrap;
             gap: 15px;
         }
+
+        
         
         
     }
