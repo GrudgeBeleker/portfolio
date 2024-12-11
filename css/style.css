@@ -259,7 +259,7 @@ nav a:hover{
 .skill-item {
     text-transform: lowercase;
 }
-
+/* 
 .skill-item_html {
     background-image: url("../img/skill=html.svg");
 }
@@ -274,7 +274,7 @@ nav a:hover{
 
 .skill-item_cpp {
     background-image: url("../img/skill=c++.svg");
-}
+} */
 
 .main-header{
     display: flex;
