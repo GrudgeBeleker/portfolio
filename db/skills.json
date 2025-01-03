@@ -1,0 +1,28 @@
+{
+    "data": [
+      {
+        "skillName": "html",
+        "skillLevel": 30
+      },
+      {
+        "skillName": "css",
+        "skillLevel": 20
+      },
+      {
+        "skillName": "python",
+        "skillLevel": 80
+      },
+      {
+        "skillName": "c++",
+        "skillLevel": 40
+      },
+      {
+        "skillName": "php",
+        "skillLevel": 5
+      },
+      {
+        "skillName": "photoshop",
+        "skillLevel": 30
+      }
+    ]
+  }

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,124 +10,84 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Портфолио</title>
+    <script defer src="js/script.js"></script>
 </head>
-
-
 <body>
     <div class="container">
         <header class="main-header">
-            <div class="logo">
-                <a href="#"><img src="img/computer-ico.svg" alt="icon" width="60" height="60"></a>
-                <button class="nav-btn nav-btn_close">
-                    <span class="visually-hidden">Закрыть меню</span>
-                </button>              
-            </div>
-            
-            <nav class="main-nav">
-                <a href="#info">Обо мне</a>
-                <a href="#skills">Навыки</a>
-                <a href="#hobbies">Интересы</a>
-                <a href="#contacts">Контакты</a>
+            <div class="logo"><a><img src="img/computer-ico.svg" width="60" height="60" alt="Логотип"></a>
+                <button class="button-nav button_close-nav">
+                    <span class="visually-hidden"> Закрыть меню</span>
+                  </button></div>
+            <nav class="main-nav main-nav_closed" >
+                    <a href="#about">Обо мне</a>
+                    <a href="#skills">Навыки</a>
+                    <a href="#interests">Интересы</a>
+                    <a href="#contacts">Контакты</a>
             </nav>
         </header>
 
-       <main>
-        <section class="intro">
-            <img src="img/my_face.jpg" class="circle" alt="face-id" width="400" height="400">
-            <div class="intro_block">
-                <h1>Коптев Егор</h1>
-                <p class="subtitle">Программист</p>
-            </div>
-        </section>
-    
-    
-        <section class="info" id="info">
-            <h2>Пара слов обо мне</h2>
-            <div class="text-wrapper">
-                <p>Привет ✌</p>
-            
+        <main>
+            <section id="intro" class="intro">
+                    <div class="name"><h1>Коптев Егор</h1>
+                    <p class="subtitle">Программист</p></div>
+                    <img class="user-photo" src="img/my_face.jpg" alt="face-id" width="400" height="400">
+            </section>
+
+            <section id="about" class="about">
+                <div class="text-wrapper"><h2>Пара слов обо мне</h2>
+                <p>Привет ✌️ </p>
                 <p>В данный момент я учусь в магистратуре МФ МГТУ им. Н. Э. Баумана 
-                    по направлению «Информатика и вычисли­тельная техника».</p>
-                
+                по направлению «Информатика и вычислительная техника».</p>
                 <p>В прошлом году защитил диплом бакалавра на тему «Разработка очень сложного программного комплекса для супер-важной цели». Работа была высоко оценена комиссией.</p>
-                
                 <p>Также я уже успел поработать инженером в Роскосмосе, 
-                    но в будущем планирую стать разработчиком сложных программных комплексов и систем.</p>
-            </div>
-            
-            
-        </section>
-      
-        <section class="skills" id="skills">
-            <div class="skills-wrapper">
-                <div class="skills-text">
+                    но в будущем планирую стать разработчиком сложных программных комплексов и систем.</p></div>
+            </section>
+
+            <section id="skills" class="skills">
+                <div class="skills-header">
                     <h2>Мои навыки</h2>
+                    <div class="skills-button">
+                        <p>Сортировать</p>
+                        <button data-type="skillName">по названию</button>
+                        <button data-type="skillLevel">по уровню</button>
+                    </div>
                 </div>
+                <dl class="skill-list">
+                </dl>
+            </section>
+            
+            <section id="interests" class="interests">
+                <h2>Мои интересы</h2>
+                <div class="text-wrapper"><p>Наибольший интерес для меня в данный момент представляет программирование и изучение искусственного интеллекта.</p>
+                <p>Но помимо учёбы и работы я также люблю играть на барабанах и читать зарубежную классику.</p></div>
+            </section>
+
+            <section id="contacts" class="contacts">
+                <h2>Мои контакты</h2>
+                <ul class="contact">
+                    <li><a href="tel:+79991112233" class="contact-link contact-link_phone">+71234567</a></li>
+                    <li><a href="mailto:email@mail.ru" class="contact-link contact-link_mail">email@mail.ru</a></li>
+                </ul>
                 
-                <div class="button-sort">
-                    Сортировать
-                    <button>
-                        по названию
-                    </button>
-                    <button>
-                        по уровню
-                    </button>
-                </div>
-            </div>
-
-            <dl class="skill-list">
-
-            </dl>
-
-        </section>
-
-        
-        <section class="hobbies" id="hobbies">
-            <h2>Мои интересы</h2>
-            
-            <div class="text-wrapper">
-                <p>
-                    Наибольший интерес для меня в данный момент представляет программирование и изучение искусственного интеллекта.
-                </p>
-                <p>
-                    Но помимо учёбы и работы я также люблю играть на барабанах и читать зарубежную классику.
-                </p>
-            </div>
-        </section>
-        
-        <section class="contacts" id="contacts">
-            <h2>Мои контакты</h2>
-
-            <ul class="contact">
-                <li><a href="tel:+79991112233" class="contact-link contact-link_phone">+71234567</a></li>
-                <li><a href="mailto:email@mail.ru" class="contact-link contact-link_mail">email@mail.ru</a></li>
-            </ul>
-
-             <ul class="social">
-                <li><a href="https://github.com/GrudgeBeleker" class="social-link social-link_github"><span class="visually-hidden">GitHub</span></a></li>
-                <li><a href="" class="social-link social-link_telegram"><span class="visually-hidden">Telegram</span></a></li>
-                <li><a href="" class="social-link social-link_vk"><span class="visually-hidden">VK</span></a></li>
-            </ul>
-            
-          
-        </section>
-        
-        
-       </main>
-
+                <ul class="social">
+                    <li><a href="https://github.com/GrudgeBeleker" class="social-link social-link_github"><span class="visually-hidden">GitHub</span></a></li>
+                    <li><a href="https://telegram.org/" class="social-link social-link_telegram"><span class="social-text visually-hidden">Telegram</span></a></li>
+                    <li><a href="https://vk.com/better203" class="social-link social-link_vk"><span class="social-text visually-hidden">Вконтакте</span></a></li>
+                </ul>
+            </section>
+        </main>
     </div>
-    
-    
-   
-   <footer class="main-footer">
-    <div class="container">
+
+    <footer class="main-footer">
+        <div class="container">
         <p>© 2024 Коптев Егор</p>
-    </div>
-   </footer>
+        </div>
+    </footer>
 
-
-
-   
-   <script src="js/script.js"></script>
+    <label class="switch">
+        <input class="switch-checkbox" type="checkbox">
+        <span class="switch-slider"></span>
+    </label>
 </body>
 </html>
