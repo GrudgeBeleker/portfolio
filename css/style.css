@@ -132,6 +132,8 @@ button:hover {
 
 .button-nav {
     display: none;
+
+
   }
 
   .button-nav:hover {
@@ -515,6 +517,8 @@ button:hover {
   
         .button_open-nav {
             background-image: url(../img/burgerking.svg);
+            background-repeat: no-repeat;
+            border-radius: 0;
         }
 
         .intro {
@@ -622,6 +626,7 @@ button:hover {
         }
         .main-nav_closed {
           display: none;
+
         }
   }
 
